@@ -1,0 +1,19 @@
+{
+    "name": "marketplace/app",
+    "description": "Simple Laravel-inspired marketplace example compatible with PHP 7",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
