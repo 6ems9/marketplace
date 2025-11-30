@@ -1,0 +1,26 @@
+[
+    {
+        "id": "prd-1",
+        "name": "Kopi Gayo",
+        "description": "Biji kopi arabika dari dataran tinggi Gayo, cocok untuk manual brew.",
+        "price": 85000,
+        "stock": 24,
+        "image": "https://images.unsplash.com/photo-1459257868276-5e65389e2722?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "id": "prd-2",
+        "name": "Totebag Tenun",
+        "description": "Totebag kain tenun buatan UMKM lokal, ramah lingkungan dan kuat.",
+        "price": 120000,
+        "stock": 12,
+        "image": "https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "id": "prd-3",
+        "name": "Lilin Aromaterapi",
+        "description": "Lilin kedelai aroma lavender, cocok untuk relaksasi di rumah.",
+        "price": 65000,
+        "stock": 40,
+        "image": "https://images.unsplash.com/photo-1512303382996-13e7934ef91b?auto=format&fit=crop&w=800&q=60"
+    }
+]
