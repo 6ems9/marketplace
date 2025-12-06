@@ -26,6 +26,7 @@ class Router
     {
         $normalized = $uri === '/' ? '/' : rtrim($uri, '/');
         $pattern = '#^' . preg_replace('#\{([^}/]+)\}#', '(?P<$1>[^/]+)', $normalized) . '$#';
+        $pattern = '#^' . preg_replace('#\{([^}/]+)\}#', '(?P<$1>[^/]+)', rtrim($uri, '/')) . '$#';
         $this->routes[$method][] = ['pattern' => $pattern, 'action' => $action];
     }
 
